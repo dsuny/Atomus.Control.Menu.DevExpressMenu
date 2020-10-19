@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B60D7A46-14FA-4F8E-8E3B-3ABD4C7AB696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{07C0EF8B-CDD5-46D0-A5EE-BA6F2BAC764D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{54CE312F-2FD4-4448-B5E6-1F3641C07A3D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DevExpressMenuController.cs = src\Controllers\DevExpressMenuController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{7713C085-444B-4279-BCE0-978F41383546}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DevExpressMenuSearchModel.cs = src\Models\DevExpressMenuSearchModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{08B38CCD-0195-4D4E-BCDB-75E655ACDC54}"
+	ProjectSection(SolutionItems) = preProject
+		src\Views\DevExpressMenu.cs = src\Views\DevExpressMenu.cs
+		src\Views\DevExpressMenu.Designer.cs = src\Views\DevExpressMenu.Designer.cs
+		src\Views\DevExpressMenu.resx = src\Views\DevExpressMenu.resx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Menu.DevExpressMenu.V18.1(dotNet)", "dotNet\DevExpress.v18.1\Atomus.Control.Menu.DevExpressMenu.V18.1(dotNet).csproj", "{C0FE1CE4-AEEA-434C-82AF-E4F0E2B00A64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Menu.DevExpressMenu.V20.1(dotNet)", "dotNet\DevExpress.v20.1\Atomus.Control.Menu.DevExpressMenu.V20.1(dotNet).csproj", "{4269B826-7ED7-473B-A00B-0769906472AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0FE1CE4-AEEA-434C-82AF-E4F0E2B00A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FE1CE4-AEEA-434C-82AF-E4F0E2B00A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FE1CE4-AEEA-434C-82AF-E4F0E2B00A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FE1CE4-AEEA-434C-82AF-E4F0E2B00A64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4269B826-7ED7-473B-A00B-0769906472AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4269B826-7ED7-473B-A00B-0769906472AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4269B826-7ED7-473B-A00B-0769906472AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4269B826-7ED7-473B-A00B-0769906472AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54CE312F-2FD4-4448-B5E6-1F3641C07A3D} = {B60D7A46-14FA-4F8E-8E3B-3ABD4C7AB696}
+		{7713C085-444B-4279-BCE0-978F41383546} = {B60D7A46-14FA-4F8E-8E3B-3ABD4C7AB696}
+		{08B38CCD-0195-4D4E-BCDB-75E655ACDC54} = {B60D7A46-14FA-4F8E-8E3B-3ABD4C7AB696}
+		{C0FE1CE4-AEEA-434C-82AF-E4F0E2B00A64} = {07C0EF8B-CDD5-46D0-A5EE-BA6F2BAC764D}
+		{4269B826-7ED7-473B-A00B-0769906472AD} = {07C0EF8B-CDD5-46D0-A5EE-BA6F2BAC764D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF44136B-46E6-44CB-91A1-8A85AED326ED}
+	EndGlobalSection
+EndGlobal
